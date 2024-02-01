@@ -9,7 +9,7 @@ def start(message):
 
 @bot.message_handler(commands=['hello'])
 def hello(message):
-    bot.reply_to(message, "Hello!")
+    bot.reply_to(message, "Hello! I can ban users")
 
 @bot.message_handler(commands=['ban'])
 def ban_user(message):
